@@ -1,0 +1,189 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex,colorlinks = true,
+urlcolor  = blue,]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeMyItem}[1]{
+  \item\small{
+    \ #1 \vspace{-2pt}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Tarun Pothulapati} & Email : \href{mailto:tarunpothulapati@outlook.com}{tarunpothulapati@outlook.com}\\
+  \href{http://tarunpothulapati.com/}{www.tarunpothulapati.com} & Mobile : +91-9398529136 \\
+  \href{http://linkedin.com/in/tpothulapati}{LinkedIn}\hspace{10mm}
+  \href{http://www.github.com/pothulapati}{GitHub}\hspace{10mm}
+  \href{http://www.twitter.com/pothulapati}{Twitter}
+\end{tabular*}
+
+%-----------WORK Experience-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+  {Intern, Community Bridge Program}{Remote}
+  {Linkerd and Jaeger, Cloud Native Computing Foundation(CNCF)}{October. 2019 -- Present}
+  \resumeItemListStart
+  \resumeMyItem{Working on adding Distributed Tracing Support to Linkerd with Open Telemetry and Jaeger as the components. }
+  \resumeMyItem{Working on an add-on model for Linkerd, to provide Out-of-box experience both through Helm and Linkerd CLI. }
+  \resumeItemListEnd
+    \resumeSubheading
+      {Google Summer Of Code 2019}{Remote}
+      {Linkerd, Cloud Native Computing Foundation(CNCF) Incubated Project}{May. 2019 -- September. 2019}
+      \resumeItemListStart
+      \resumeMyItem{Worked on implementing Service Mesh Interface (SMI) Metrics spec for Istio, Consul and also making the project more extensible.}
+      \resumeItemListEnd
+      \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vardhaman College Of Engineering}{Hyderabad, India}
+      {Bachelor of Technology in Computer Science;  CGPA: 9.16 (till IVth semester)}{Aug. 2016 -- May. 2020}
+    \resumeSubheading
+      {Sri Chaitanya Junior College}{Hyderabad, India}
+      {Intermediate: Maths, Physics and Chemistry;  95.1\% }{Jun. 2014 -- March. 2016}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+  {Vardhaman College Chatbot}{}
+  {Python, Microsoft Bot Framework, Docker, Azure App Service for Containers}{}
+  \resumeItemListStart
+    \resumeMyItem{Developed a chatbot which helps students keep track of their GPA, Attendance, Schedule and keep them updated with college related information.}
+    \resumeMyItem{Vardhaman Bot is available on Facebook Messenger, Slack and on a website.}
+  \resumeItemListEnd
+
+    \resumeSubheading
+      {Azure Service Fabric Mesh Controller for kubernetes}{}
+      {Go, Kubernetes, Azure Service Fabric Mesh, Azure SDK for Go}{}
+      \resumeItemListStart
+        \resumeMyItem{A Kubernetes Controller to create and manage your Service Fabric Mesh resources right from the Kubernetes Control Plane.}
+        \resumeMyItem{Implemented using CRD's (Custom Resouce Definations), So as to offload your micro-service workloads to Service Fabric Mesh.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Tsep: Telangana State Eamcet Predictor}{}
+      {C\#, Asp.Net Core, Azure Table Storage, Azure App Service}{}
+      \resumeItemListStart
+        \resumeMyItem{Developed a Web Application which predicted ranks and colleges for students according to their score in EAMCET (Engineering Agricultural and Medical Common Entrance Test).}
+        \resumeMyItem{The prediction is almost accurate as it is based upon previous years data and analytics.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%-----------PROJECTS-----------------
+\section{Awards and Certifications}
+  \resumeSubHeadingListStart
+  \resumeSubItem{KubeCon + CloudNativeCon NA 2019}{Was awarded scholarship to attend the conference which happened in \textbf{San Diego, Califoria, USA} on \textbf{18th November 2019}.}
+    \resumeSubItem{KubeCon + CloudNativeCon EU 2019}{Was awarded scholarship to attend the conference which happened in \textbf{Barcelona, Spain} on \textbf{21st May 2019}.}
+    \resumeSubItem{Megathon 2017, IIIT Hyderabad}
+      {Won 1st Prize in the IBM Challenge for developing an IT Service Chatbot using IBM Watson and Microsoft Bot Framework.}
+      \resumeSubItem{Cambridge Business English Vantage Certification}
+      {Scored  176/190 }
+      \resumeSubItem{AICTE All India Startup Contest 2017, Chennai }
+      {Was one of the top 40 finalists across the Country.}
+      \resumeSubItem{IEEE SS12 National Level Competition 2017 , Hyderabad }
+      {Won the second prize for developing Dr.Bot, a healthcare assistant.}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Open Source Contributions}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Keen SDK}
+      {Helped convert the .Net Keen SDK to .Net Standard, there by making it .Net Core compaitable.}
+    \resumeSubItem{Brighter.Net}
+     {Implemented PostgreSQL as a Message Store for the Brigher.Net project which implements the Command Invoker pattern.}
+     \resumeSubItem{Virtual Kubelet}
+     {Fixed a Bug when the configured Secret/ConfigMap is absent, and wrote e2e tests for the same.}
+    \resumeSubHeadingListEnd
+
+    %--------PROGRAMMING SKILLS------------
+    \section{Programming Skills}
+      \resumeSubHeadingListStart
+        \resumeSubItem{Languages And Frameworks}{C\#, Python, Go, Java, SQL, .Net Core, Asp.Net Core, MS Bot Framework }
+        \resumeSubItem{Technologies}{Azure, Kubernetes, Service Meshes, Cloud Computing, Distributed Systems, Linux, Git, NoSQL}
+        \resumeSubHeadingListEnd
+
+\section{Technical Talks}
+  \resumeSubHeadingListStart
+  \resumeSubItem{CNCF Hyderabad Meetup Group}{ Part of the organising team, to have an active community around Cloud Native Technologies in Hyderabad. }
+    \resumeSubItem{PyCon India 2018, Hyderabad}{Delivered a talk on Deploying a Python Application onto a Kubernetes Cluster with Auto-Scaling enabled. }
+  \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
