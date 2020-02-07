@@ -1,8 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Sourabh Bajaj
-% License : MIT
-%------------------------
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -121,20 +116,20 @@ urlcolor  = blue,]{hyperref}
   \resumeSubHeadingListStart
 
   \resumeSubheading
+  {Doker}{}
+  {Golang, Docker, Kubernetes}{}
+  \resumeItemListStart
+    \resumeMyItem{Do\textbf{k}er is a cli tool that provides a docker-cli experience but for a Kubernetes Cluster}
+    \resumeMyItem{It allows users to manage Images and Containers on the Kubernetes node by running a daemonset which interacts with the docker daemon.}
+  \resumeItemListEnd
+
+  \resumeSubheading
   {Vardhaman College Chatbot}{}
   {Python, Microsoft Bot Framework, Docker, Azure App Service for Containers}{}
   \resumeItemListStart
     \resumeMyItem{Developed a chatbot which helps students keep track of their GPA, Attendance, Schedule and keep them updated with college related information.}
     \resumeMyItem{Vardhaman Bot is available on Facebook Messenger, Slack and on a website.}
   \resumeItemListEnd
-
-    \resumeSubheading
-      {Azure Service Fabric Mesh Controller for kubernetes}{}
-      {Go, Kubernetes, Azure Service Fabric Mesh, Azure SDK for Go}{}
-      \resumeItemListStart
-        \resumeMyItem{A Kubernetes Controller to create and manage your Service Fabric Mesh resources right from the Kubernetes Control Plane.}
-        \resumeMyItem{Implemented using CRD's (Custom Resouce Definations), So as to offload your micro-service workloads to Service Fabric Mesh.}
-        \resumeItemListEnd
 
     \resumeSubheading
       {Tsep: Telangana State Eamcet Predictor}{}
@@ -162,7 +157,11 @@ urlcolor  = blue,]{hyperref}
 %-----------PROJECTS-----------------
 \section{Open Source Contributions}
   \resumeSubHeadingListStart
-    \resumeSubItem{Keen SDK}
+  \resumeSubItem{Linkerd}
+  {Active Contributor to Linkerd, An Open Source,CNCF Incubated, Service Mesh project.}
+  \resumeSubItem{Service Mesh Interface Metrics}
+  {Maintainer to the SMI-Metrics API, which aims to provide a common metrics API for different Service Meshes like Linkerd, Istio, etc.}  
+  \resumeSubItem{Keen SDK}
       {Helped convert the .Net Keen SDK to .Net Standard, there by making it .Net Core compaitable.}
     \resumeSubItem{Brighter.Net}
      {Implemented PostgreSQL as a Message Store for the Brigher.Net project which implements the Command Invoker pattern.}
