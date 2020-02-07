@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.2)  7 FEB 2020 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.2)  7 FEB 2020 23:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -276,7 +276,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  28i,11n,43p,239b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/tarun/work/resume/tarunpothulapati_resume.pdf (2 pages, 98454 bytes).
+Output written on /home/tarun/work/resume/tarunpothulapati_resume.pdf (2 pages, 98485 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
