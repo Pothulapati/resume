@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1581096659 "tarunpothulapati_resume.tex" "/home/tarun/work/resume/tarunpothulapati_resume.pdf" "tarunpothulapati_resume" 1581096686
+["pdflatex"] 1581096798 "tarunpothulapati_resume.tex" "/home/tarun/work/resume/tarunpothulapati_resume.pdf" "tarunpothulapati_resume" 1581096799
   "/etc/texmf/web2c/texmf.cnf" 1575959560 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/tarun/work/resume/tarunpothulapati_resume.aux" 1581096659 1456 5c972baac94d703f60df3e7bb44f49be ""
+  "/home/tarun/work/resume/tarunpothulapati_resume.aux" 1581096799 1456 5c972baac94d703f60df3e7bb44f49be ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -61,13 +61,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1562720991 35073 2a40cfca74fcd5e2568b569ccaadf3f1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1577968323 128047 e93c60b45dbf514536313c017e3cc4df ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1577968330 797298 4720635c1c039fbc91c4f553b00db0f2 ""
-  "tarunpothulapati_resume.aux" 1581096659 1456 5c972baac94d703f60df3e7bb44f49be "pdflatex"
-  "tarunpothulapati_resume.out" 1581096659 360 f834360c17b9e5cc7319c9c8076a4aa2 "pdflatex"
-  "tarunpothulapati_resume.tex" 1581096686 7863 e2dda10df6dcd3b6dc3dc95359b74a17 ""
+  "tarunpothulapati_resume.aux" 1581096799 1456 5c972baac94d703f60df3e7bb44f49be "pdflatex"
+  "tarunpothulapati_resume.out" 1581096799 360 f834360c17b9e5cc7319c9c8076a4aa2 "pdflatex"
+  "tarunpothulapati_resume.tex" 1581096798 7874 b587633a18d916e51412bc64c4c4692e ""
   (generated)
-  "/home/tarun/work/resume/tarunpothulapati_resume.pdf"
-  "/home/tarun/work/resume/tarunpothulapati_resume.log"
-  "tarunpothulapati_resume.aux"
-  "tarunpothulapati_resume.pdf"
-  "tarunpothulapati_resume.log"
   "tarunpothulapati_resume.out"
+  "tarunpothulapati_resume.log"
+  "/home/tarun/work/resume/tarunpothulapati_resume.pdf"
+  "tarunpothulapati_resume.pdf"
+  "tarunpothulapati_resume.aux"
+  "/home/tarun/work/resume/tarunpothulapati_resume.log"
