@@ -75,114 +75,139 @@ urlcolor  = blue,]{hyperref}
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\Large Tarun Pothulapati} & Email : \href{mailto:tarunpothulapati@outlook.com}{tarunpothulapati@outlook.com}\\
-  \href{http://tarunpothulapati.com/}{www.tarunpothulapati.com} & Mobile : +91-9398529136 \\
+  \href{http://tarrooon.com/}{www.tarrooon.com} & Mobile : +91-9398529136 \\
   \href{http://linkedin.com/in/tpothulapati}{LinkedIn}\hspace{10mm}
   \href{http://www.github.com/pothulapati}{GitHub}\hspace{10mm}
-  \href{http://www.twitter.com/pothulapati}{Twitter}
+  \href{http://www.twitter.com/tarrooon}{Twitter}
 \end{tabular*}
 
 %-----------WORK Experience-----------------
 \section{Work Experience}
-  \resumeSubHeadingListStart
-  \resumeSubheading
-  {Intern, Community Bridge Program}{Remote}
-  {Linkerd and Jaeger, Cloud Native Computing Foundation(CNCF)}{October. 2019 -- Present}
-  \resumeItemListStart
-  \resumeMyItem{Working on adding Distributed Tracing Support to Linkerd with Open Telemetry and Jaeger as the components. }
-  \resumeMyItem{Working on an add-on model for Linkerd, to provide Out-of-box experience both through Helm and Linkerd CLI. }
-  \resumeItemListEnd
-    \resumeSubheading
-      {Google Summer Of Code 2019}{Remote}
-      {Linkerd, Cloud Native Computing Foundation(CNCF) Incubated Project}{May. 2019 -- September. 2019}
-      \resumeItemListStart
-      \resumeMyItem{Worked on implementing Service Mesh Interface (SMI) Metrics spec for Istio, Consul and also making the project more extensible.}
-      \resumeItemListEnd
-      \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Senior Software Engineer, Gitpod}{Remote}
+{Golang, Kubernetes}{February. 2022 -- Jan. 2023}
+\resumeItemListStart
+\resumeMyItem{Part of the \textbf{Delivery Team}, and Helped build the \textbf{self-hosted installation of Gitpod} on Kubernetes with
+  monthly release cadence along with a focus on automated testing pipelines, telemetry, etc. }
+\resumeMyItem{Worked on a preview version of Gitpod which \textbf{packaged the full Gitpod experience in a single docker container} for self-serve enterprise users.}
+\resumeMyItem{Helped various teams in \textbf{being confident with their part of delivery, by building tools} for upgrades
+  clusters, components catering both to the SAAS instance, and self-hosted users.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Software Engineer, Buoyant}{Remote}
+{Linkerd, CNCF Incubated OSS Service Mesh project}{March. 2020 -- January 2022}
+\resumeItemListStart
+\resumeMyItem{\textbf{Linkerd Maintainer}, focusing on the control-plane written in Golang.}
+\resumeMyItem{Worked on various e2e features like the extensions, new upgrade flow, etc starting from the \textbf{design phase all the
+    way till integration tests}.}
+\resumeMyItem{Played a key role in moving the \textbf{CLI logic to use Helm package internally}, and thus having only one logic to
+  support thereby \textbf{reducing maintainer burden}.}
+\resumeMyItem{Helped move SMI functionality into a separate extension, by writing a controller that converts SMI resources into
+  resouces that Linkerd can understand. This helped in \textbf{having better separation of conerns}.}
+\resumeMyItem{Pariticipated in \textbf{various OSS project outreach activities} like Documentation, Technical talks/blogs, Slack
+  support, etc.}
+
+\resumeItemListEnd
+\resumeSubheading
+{Intern, Community Bridge Program}{Remote}
+{Linkerd and Jaeger, Cloud Native Computing Foundation(CNCF)}{October. 2019 -- Present}
+\resumeItemListStart
+\resumeMyItem{Working on adding Distributed Tracing Support to Linkerd with Open Telemetry and Jaeger as the components. }
+\resumeMyItem{Working on an add-on model for Linkerd, to provide Out-of-box experience both through Helm and Linkerd CLI. }
+\resumeItemListEnd
+
+\resumeSubheading
+{Google Summer Of Code 2019}{Remote}
+{Linkerd, Cloud Native Computing Foundation(CNCF) Incubated Project}{May. 2019 -- September. 2019}
+\resumeItemListStart
+\resumeMyItem{Worked on implementing Service Mesh Interface (SMI) Metrics spec for Istio, Consul and also making the project more extensible.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{https://github.com/Pothulapati/gh-action-trace}{gh-action-trace}}{}
+{Rust, tracing, Jaeger}{}
+\resumeItemListStart
+\resumeMyItem{A CLI to generate traces for GitHub Action runs by retrieving the metadata from GitHub API.}
+\resumeMyItem{Useful to understand the overall timings of GitHub Action runs and in understanding where things are slow.}
+\resumeItemListEnd
+
+\resumeSubheading
+{\href{https://github.com/Pothulapati/doker}{Doker}}{}
+{Golang, Client-Go, Docker, Kubernetes}{}
+\resumeItemListStart
+\resumeMyItem{Do\textbf{k}er is a cli tool that provides a docker-cli experience but for a Kubernetes Cluster}
+\resumeMyItem{It allows users to manage Images and Containers on the Kubernetes nodes by running a daemonset which interacts with the docker daemon.}
+\resumeItemListEnd
+
+\resumeSubheading
+{\href{https://github.com/Pothulapati/tsep}{Tsep: Telangana State Eamcet Predictor}}{}
+{C\#, Asp.Net Core, Azure Table Storage, Azure App Service}{}
+\resumeItemListStart
+\resumeMyItem{Developed a Web Application which predicted ranks and colleges for students according to their score in EAMCET (Engineering Agricultural and Medical Common Entrance Test).}
+\resumeMyItem{The prediction is almost accurate as it is based upon previous years data and analytics.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------TALKS-----------------
+\section{Technical Talks}
+\resumeSubHeadingListStart
+\resumeSubItem{\href{https://www.youtube.com/watch?v=pZnNvU89wes&feature=youtu.be}{How Linkerd Transforms Code into running Software}}{at GitHub Satellite India 2021}
+\resumeSubItem{\href{https://www.youtube.com/watch?v=rYp0bUmcbMs}{Piecing together Rust: It is more than just writing code}}{at RustFest Global 2020}
+\resumeSubItem{\href{https://www.youtube.com/watch?v=9XlEIURv_3M}{Overview and State of Linkerd}}{at KubeCon + CloudNativeCon North America 2020}
+\resumeSubItem{CNCF Hyderabad Meetup Group}{ Part of the organising team, to have an active community around Cloud Native Technologies in Hyderabad. }
+\resumeSubHeadingListEnd
+
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Vardhaman College Of Engineering}{Hyderabad, India}
-      {Bachelor of Technology in Computer Science;  CGPA: 9.16 (till IVth semester)}{Aug. 2016 -- May. 2020}
-    \resumeSubheading
-      {Sri Chaitanya Junior College}{Hyderabad, India}
-      {Intermediate: Maths, Physics and Chemistry;  95.1\% }{Jun. 2014 -- March. 2016}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Vardhaman College Of Engineering}{Hyderabad, India}
+{Bachelor of Technology in Computer Science;  CGPA: 9.16 }{Aug. 2016 -- March. 2020}
+\resumeSubheading
+{Sri Chaitanya Junior College}{Hyderabad, India}
+{Intermediate: Maths, Physics and Chemistry;  95.1\% }{Jun. 2014 -- March. 2016}
+\resumeSubHeadingListEnd
 
 
-%-----------EXPERIENCE-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
 
-  \resumeSubheading
-  {Doker}{}
-  {Golang, Client-Go, Docker, Kubernetes}{}
-  \resumeItemListStart
-    \resumeMyItem{Do\textbf{k}er is a cli tool that provides a docker-cli experience but for a Kubernetes Cluster}
-    \resumeMyItem{It allows users to manage Images and Containers on the Kubernetes nodes by running a daemonset which interacts with the docker daemon.}
-  \resumeItemListEnd
+%-----------AWARDS-----------------
+\section{Awards and Recognitions}
+\resumeSubHeadingListStart
+\resumeSubItem{KubeCon + CloudNativeCon NA 2019}{Was awarded scholarship to attend the conference which happened in \textbf{San Diego, Califoria, USA} on \textbf{18th November 2019}.}
+\resumeSubItem{KubeCon + CloudNativeCon EU 2019}{Was awarded scholarship to attend the conference which happened in \textbf{Barcelona, Spain} on \textbf{21st May 2019}.}
+\resumeSubItem{Megathon 2017, IIIT Hyderabad}
+{Won 1st Prize in the IBM Challenge for developing an IT Service Chatbot using IBM Watson and Microsoft Bot Framework.}
+\resumeSubItem{AICTE All India Startup Contest 2017, Chennai }
+{Was one of the top 40 finalists across the Country.}
+\resumeSubItem{IEEE SS12 National Level Competition 2017 , Hyderabad }
+{Won the second prize for developing Dr.Bot, a healthcare assistant.}
+\resumeSubHeadingListEnd
 
-  \resumeSubheading
-  {Vardhaman College Chatbot}{}
-  {Python, Microsoft Bot Framework, Docker, Azure App Service for Containers}{}
-  \resumeItemListStart
-    \resumeMyItem{Developed a chatbot which helps students keep track of their GPA, Attendance, Schedule and keep them updated with college related information.}
-    \resumeMyItem{Vardhaman Bot is available on Facebook Messenger, Slack and on a website.}
-  \resumeItemListEnd
+%-----------CERTIFICATIONS-----------------
 
-    \resumeSubheading
-      {Tsep: Telangana State Eamcet Predictor}{}
-      {C\#, Asp.Net Core, Azure Table Storage, Azure App Service}{}
-      \resumeItemListStart
-        \resumeMyItem{Developed a Web Application which predicted ranks and colleges for students according to their score in EAMCET (Engineering Agricultural and Medical Common Entrance Test).}
-        \resumeMyItem{The prediction is almost accurate as it is based upon previous years data and analytics.}
-      \resumeItemListEnd
-    \resumeSubHeadingListEnd
-%-----------PROJECTS-----------------
-\section{Awards and Certifications}
-  \resumeSubHeadingListStart
-  \resumeSubItem{KubeCon + CloudNativeCon NA 2019}{Was awarded scholarship to attend the conference which happened in \textbf{San Diego, Califoria, USA} on \textbf{18th November 2019}.}
-    \resumeSubItem{KubeCon + CloudNativeCon EU 2019}{Was awarded scholarship to attend the conference which happened in \textbf{Barcelona, Spain} on \textbf{21st May 2019}.}
-    \resumeSubItem{Megathon 2017, IIIT Hyderabad}
-      {Won 1st Prize in the IBM Challenge for developing an IT Service Chatbot using IBM Watson and Microsoft Bot Framework.}
-      \resumeSubItem{Cambridge Business English Vantage Certification}
-      {Scored  176/190 }
-      \resumeSubItem{AICTE All India Startup Contest 2017, Chennai }
-      {Was one of the top 40 finalists across the Country.}
-      \resumeSubItem{IEEE SS12 National Level Competition 2017 , Hyderabad }
-      {Won the second prize for developing Dr.Bot, a healthcare assistant.}
-  \resumeSubHeadingListEnd
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeSubItem{Certified Kubernetes Administrator}{Successfully completed CKA certification by Cloud Native Computing
+  Foundation (CNCF) in February, 2020.}
+\resumeSubItem{Cambridge Businss English Vantage certification}
+{Scored 176/190.}
+\resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------------
-\section{Open Source Contributions}
-  \resumeSubHeadingListStart
-  \resumeSubItem{Linkerd}
-  {Active Contributor to Linkerd, An Open Source,CNCF Incubated, Service Mesh project.}
-  \resumeSubItem{Service Mesh Interface Metrics}
-  {Maintainer to the SMI-Metrics API, which aims to provide a common metrics API for different Service Meshes like Linkerd, Istio, etc.}  
-  \resumeSubItem{Keen SDK}
-      {Helped convert the .Net Keen SDK to .Net Standard, there by making it .Net Core compaitable.}
-    \resumeSubItem{Brighter.Net}
-     {Implemented PostgreSQL as a Message Store for the Brigher.Net project which implements the Command Invoker pattern.}
-     \resumeSubItem{Virtual Kubelet}
-     {Fixed a Bug when the configured Secret/ConfigMap is absent, and wrote e2e tests for the same.}
-    \resumeSubHeadingListEnd
-
-    %--------PROGRAMMING SKILLS------------
-    \section{Programming Skills}
-      \resumeSubHeadingListStart
-        \resumeSubItem{Languages And Frameworks}{C\#, Python, Go, Java, SQL, .Net Core, Asp.Net Core, MS Bot Framework }
-        \resumeSubItem{Technologies}{Azure, Kubernetes, Service Meshes, Cloud Computing, Distributed Systems, Linux, Git, NoSQL}
-        \resumeSubHeadingListEnd
-
-\section{Technical Talks}
-  \resumeSubHeadingListStart
-  \resumeSubItem{CNCF Hyderabad Meetup Group}{ Part of the organising team, to have an active community around Cloud Native Technologies in Hyderabad. }
-    \resumeSubItem{PyCon India 2018, Hyderabad}{Delivered a talk on Deploying a Python Application onto a Kubernetes Cluster with Auto-Scaling enabled. }
-  \resumeSubHeadingListEnd
-
-
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+\resumeSubHeadingListStart
+\resumeSubItem{Languages And Frameworks}{Go, Rust, Python, C\#, Java, SQL, .Net Core, Asp.Net Core}
+\resumeSubItem{Technologies}{Kubernetes, Networking, Cloud Computing, Distributed Systems, Linux, Git, NoSQL}
+\resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
